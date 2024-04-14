@@ -1,0 +1,27 @@
+header.theme-dark .badge { color: var(--white-000) }
+header.theme-dark .badge { background-color: var(--black-000) }
+header.theme-dark h1 { color: var(--green-400) }
+
+/* =============== Add your custom CSS below =========== */
+
+header.theme-dark .badge {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+    text-decoration-color: var(--green-400);
+    text-decoration-style: wavy;
+    background-color: black !important;
+    color: #fff !important;
+}
+ 
+header.theme-dark h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: var(--font-size-xxxl);
+}
+ 
+header.theme-dark h2 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+}
